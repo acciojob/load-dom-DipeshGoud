@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  document.getElementsByTagName("body")[0].append("DOM load success");
+  document.body.innerHTML = ""; // Clear the contents of the body element
+  document.body.append("DOM load success");
 });
